@@ -1,0 +1,21 @@
+{
+  "name": "sol-training-assignment1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dustin-crypto/sol-training-assignment1.git",
+  "author": "dustin-crypto <dustin.chen@crypto.com>",
+  "license": "MIT",
+  "scripts": {
+    "subtask1": "ts-node ./src/subtask1.ts",
+    "subtask2": "ts-node ./src/subtask2.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "ethers": "^5.6.9"
+  }
+}
